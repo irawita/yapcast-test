@@ -1,0 +1,12 @@
+body {
+    background-color: #252525;
+}
+header {
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
