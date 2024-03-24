@@ -1,12 +1,16 @@
 body {
-    background-color: #252525;
+    background-color: #f6eee3;
 }
-header {
+* {
     font-family: Helvetica, sans-serif;
-    color: #ffffff;
+    color: #b93535;
 }
 
 .center {
     display: flex;
     justify-content: center;
+}
+
+.list {
+    line-height: 0.7;
 }
