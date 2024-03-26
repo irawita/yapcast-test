@@ -1,16 +1,63 @@
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f6eee3;
-}
-* {
-    font-family: Helvetica, sans-serif;
     color: #b93535;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
+header {
+    background-color: #b93535; /* Use your color scheme */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
 }
 
 .list {
-    line-height: 1;
+    margin-top: 10px;
+}
+
+.list h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.audio-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: #b93535; /* Use your color scheme */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+audio {
+    width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #333;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-start-playback-button {
+    color: #fff;
 }
