@@ -1,13 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f6eee3;
-    color: #b93535;
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f6eee3; /* Light background color */
+        color: #b93535;
+    }
+
+    header {
+        background-color: #b93535; /* Use your color scheme */
+    }
+
+    .audio-container {
+        background-color: #b93535; /* Use your color scheme */
+        color: #fff;
+    }
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333; /* Dark background color */
+        color: #fff;
+    }
+
+    header {
+        background-color: #b93535; /* Use your color scheme */
+    }
+
+    .audio-container {
+        background-color: #b93535; /* Use your color scheme */
+        color: #fff;
+    }
+}
+
+/* Common styles */
 header {
-    background-color: #b93535; /* Use your color scheme */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -37,8 +63,6 @@ h2 {
     margin: 20px auto;
     width: 90%;
     max-width: 600px;
-    background-color: #b93535; /* Use your color scheme */
-    color: #fff;
     padding: 10px;
     border-radius: 5px;
 }
